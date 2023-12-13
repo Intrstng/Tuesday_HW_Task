@@ -2,7 +2,7 @@
   "name": "hws",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Intrstng.github.io/Tuesday_HW",
+  "homepage": "https://Intrstng.github.io/Tuesday_HW_Task",
   "dependencies": {
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
