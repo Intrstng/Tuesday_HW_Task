@@ -1,15 +1,15 @@
-import React, {ChangeEvent, KeyboardEvent} from 'react'
+import React, {ChangeEvent, FocusEvent, KeyboardEvent} from 'react'
 import s from './Greeting.module.css'
 
 type GreetingPropsType = {
-    name: any // need to fix any
-    setNameCallback: any // need to fix any
-    addUser: any // need to fix any
-    onBlur: any // need to fix any
-    onEnter: any // need to fix any
-    error: any // need to fix any
-    totalUsers: any // need to fix any
-    lastUserName?: any // need to fix any
+    name: string // need to fix any - ok
+    setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void // need to fix any - ok
+    addUser: () => void // need to fix any - ok
+    onBlur: () => void // need to fix any - ok
+    onEnter: (e: KeyboardEvent<HTMLInputElement>) => void // need to fix any - ok
+    error: string // need to fix any - ok
+    totalUsers: number // need to fix any - ok
+    lastUserName?: string // need to fix any - ok
 }
 
 // презентационная компонента (для верстальщика)
