@@ -32,7 +32,7 @@ export const message0: MessageType = {
     id: 0,
     user: {
         avatar: avatarUser_1, // можно менять
-        name: 'Jonny',  // можно менять
+        name: 'Jesse Pinkman',  // можно менять
     },
     message: {
         text: 'Hello! How did you like our last lesson with Mr. Walter White?', // можно менять
@@ -43,7 +43,7 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: avatarUser_2, // можно менять
-        name: 'Anna', // можно менять
+        name: 'Jane Margolis', // можно менять
     },
     message: {
         text: 'Hello! It was cool! I\'m still impressed by his report "What components does the human body consist of"', // можно менять
