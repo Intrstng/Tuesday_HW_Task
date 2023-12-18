@@ -47,6 +47,11 @@
     color: white;
 }
 
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .affairs {
     display: flex;
     gap: 17px;

@@ -7,7 +7,7 @@
 .hwTitle {
     width: 1140px;
     margin: 0 auto;
-    padding: 131px 0 10px;
+    padding: 64px 0 10px;
     color: #000;
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
@@ -17,9 +17,14 @@
 }
 
 .hw {
-    margin: 0 auto 216px;
+    margin: 0 auto 64px;
     padding: 24px 0 32px;
     background: #FFF;
     border-top: 1px solid #D9D9D9;
     border-bottom: 1px solid #D9D9D9;
+}
+
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
 }

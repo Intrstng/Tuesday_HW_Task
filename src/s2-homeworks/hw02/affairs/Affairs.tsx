@@ -39,7 +39,7 @@ function Affairs(props: AffairsPropsType) {
     ))
 
     return (
-        <div>
+        <div className={s.wrapper}>
             <div className={s.buttonContainer}>
                 <button
                     id={'hw2-button-all'}
