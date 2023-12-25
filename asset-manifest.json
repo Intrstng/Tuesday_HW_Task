@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Tuesday_HW_Task/static/css/main.b82fd490.css",
-    "main.js": "/Tuesday_HW_Task/static/js/main.dc042353.js",
+    "main.css": "/Tuesday_HW_Task/static/css/main.ca14bfb2.css",
+    "main.js": "/Tuesday_HW_Task/static/js/main.f2eeee54.js",
     "static/js/787.6679c7e1.chunk.js": "/Tuesday_HW_Task/static/js/787.6679c7e1.chunk.js",
     "static/media/avatar_2.jpg": "/Tuesday_HW_Task/static/media/avatar_2.6cf3089cb1b55957f83d.jpg",
     "static/media/avatar_1.jpg": "/Tuesday_HW_Task/static/media/avatar_1.749667cc5449de2b9786.jpg",
+    "static/media/checked.svg": "/Tuesday_HW_Task/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/Tuesday_HW_Task/index.html",
-    "main.b82fd490.css.map": "/Tuesday_HW_Task/static/css/main.b82fd490.css.map",
-    "main.dc042353.js.map": "/Tuesday_HW_Task/static/js/main.dc042353.js.map",
+    "main.ca14bfb2.css.map": "/Tuesday_HW_Task/static/css/main.ca14bfb2.css.map",
+    "main.f2eeee54.js.map": "/Tuesday_HW_Task/static/js/main.f2eeee54.js.map",
     "787.6679c7e1.chunk.js.map": "/Tuesday_HW_Task/static/js/787.6679c7e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82fd490.css",
-    "static/js/main.dc042353.js"
+    "static/css/main.ca14bfb2.css",
+    "static/js/main.f2eeee54.js"
   ]
 }
