@@ -1,36 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .button {
+    display: inline-flex;
+    min-width: 132px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
 }
 
 .disabled {
+    opacity: 0.5;
+    background-color: #004D99;
+    color: #002E5C;
 }
 
 .secondary {
+    background-color: transparent;
+    border: 1px solid #06C;
+    color: #06C;
 }
 
 .default {
+    background-color: #06C;
+    border: none;
+    color: #fff;
 }
 
 .red {
+    background-color: #CC1439;
+    border: none;
+    color: #fff;
 }
 
 .default:hover {
+    background-color: #0080FF;
 }
 
 .red:hover {
+    background-color: #FF1A47;
 }
 
 .secondary:hover {
+    border: 1px solid #06C;
+    background-color: #E5F0FA;
 }
 
 
 .default:active {
+    background-color: #0059B2;
 }
 
 .secondary:active {
+    background-color: #C9E5FF;
 }
 
 .red:active {
+    background-color: #B21232;
 }
 
 .button:disabled {
+    opacity: 0.5;
+    background-color: #004D99;
+    color: #002E5C;
 }
