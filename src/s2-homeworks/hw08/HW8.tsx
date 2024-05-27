@@ -17,6 +17,8 @@ export type UserType = {
     age: number
 }
 
+type SortType = '' | '18' | 'up' | 'down';
+
 const initialPeople: UserType[] = [
     // студенты могут поменять имя/возраст/количество объектов, _id должны быть целочисленные
     {_id: 0, name: 'Кот', age: 3},
@@ -29,7 +31,7 @@ const initialPeople: UserType[] = [
 
 const HW8 = () => {
     const [people, setPeople] = useState<UserType[]>(initialPeople)
-    const [currentSort, setCurrentSort] = useState('')
+    const [currentSort, setCurrentSort] = useState<SortType>('')
 
     const finalPeople = people.map((u: UserType) => <User key={u._id} u={u}/>)
 
