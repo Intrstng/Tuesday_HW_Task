@@ -1,3 +1,10 @@
 .loader {
-    /*свг и/или анимация*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-image: url('./assets/loader-spinner.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
