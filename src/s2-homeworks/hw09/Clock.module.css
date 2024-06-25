@@ -12,22 +12,25 @@
 
 .watch {
     margin-bottom: 55px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weigth: 400;
-    color: rgb(0, 0, 0);
+    font-weight: 400;
+    /*color: rgb(0, 0, 0);*/
+    color: var(--color);
 }
 
 .watch strong {
-    font-weigth: 600;
+    font-weight: 600;
 }
 
 .more {
     position: absolute;
     top: 30px;
     left: 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weigth: 400;
-    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    /*color: rgba(0, 0, 0, 0.5);*/
+    color: var(--color);
+    opacity: 0.5;
 }

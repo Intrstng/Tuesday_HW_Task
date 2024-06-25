@@ -20,7 +20,7 @@ const themes = [
 ]
 
 const HW12 = () => {
-    // взять ид темы из редакса        - ok
+    // взять ид темы из редакса     - ok
     const dispatch = useDispatch();
     const themeId = useSelector<AppStoreType, number>((state) => state.theme.themeId);
 
@@ -43,8 +43,9 @@ const HW12 = () => {
                     id={'hw12-select-theme'}
                     className={s.select}
                     // сделать переключение тем     - ok
-                    onChangeOption={change}
+                    value={themeId}
                     options={themes}
+                    onChangeOption={change}
                 />
             </div>
         </div>

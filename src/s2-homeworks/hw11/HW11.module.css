@@ -10,8 +10,8 @@
 }
 
 .number {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #000000;
+    color: var(--color);
 }

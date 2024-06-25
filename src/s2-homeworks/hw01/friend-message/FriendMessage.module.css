@@ -63,7 +63,8 @@
 
 .friendTime {
     margin: 5px 0 56px 10px;
-    color: #000;
+    /*color: #000;*/
+    color: var(--color);
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-style: normal;
