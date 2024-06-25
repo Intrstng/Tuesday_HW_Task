@@ -17,9 +17,7 @@ function HW11() {
 
     const change = (event: Event, value: number | number[]) => {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
-        console.log(typeof value)
         if (Array.isArray(value)) {
-            console.log(value)
             setValue1(value[0] as number);
             setValue2(value[1] as number);
         } else {
@@ -40,7 +38,6 @@ function HW11() {
                             // сделать так чтоб value1 изменялось // пишет студент      - ok
                             value={value1}
                             size='medium'
-                            aria-label='Default'
                             defaultValue={0}
                             valueLabelDisplay='auto'
                             onChange={change}
@@ -53,7 +50,6 @@ function HW11() {
                             // сделать так чтоб value1/2 изменялось // пишет студент      - ok
                             value={[value1, value2]}
                             size='medium'
-                            aria-label='Default'
                             valueLabelDisplay='auto'
                             onChange={change}
                             disableSwap
